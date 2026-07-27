@@ -10,4 +10,10 @@ module.exports = (sequelize, DataTypes) => {
             allowNull: false,
             unique: true,
         },
-        
+        password: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        }
+    });
+    
+  
